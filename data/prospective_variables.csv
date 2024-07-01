@@ -1,0 +1,55 @@
+label,variable,type,dtype,rtype,predictor
+"Study id",studyid_hn057,index,Int64,integer,no
+Sex,hn1_na8_cb_sex,categorical,category,factor,yes
+Age,hn1_dv_age_cons,numerical,Float64,integer,yes
+"TNM Stage",hn1_tnm_stage_best,categorical,Int64,factor,yes
+"Tumor location",hn1_icd_group_conf,categorical,category,factor,yes
+"Comorbidity index",hn1_nb4_cb_comorb_index,categorical,Int64,factor,yes
+"HPV status",hn1_nb9a_cb_hpv_status,categorical,category,factor,yes
+"Household income",hn1_dv_a21_ay_hhold_income,categorical,Int64,factor,yes
+"Marital status",hn1_a5_ay_marital_status,categorical,category,factor,yes
+"Education level",hn1_a7a_ay_education_level,categorical,Int64,factor,yes
+"IMD10 wealth index",hn1_imd10quint,categorical,Int64,factor,yes
+BMI,hn1_dv_bmi,numerical,Float64,numeric,yes
+Surgery,hn2_surgery,categorical,category,factor,yes
+Chemotherapy,hn2_chemotherapy,categorical,category,factor,yes
+Radiotherapy,hn2_radiotherapy,categorical,category,factor,yes
+"Survival time",hn3_dv_death_time0,excluded,Float64,numeric,no
+"Status at baseline",hn3_dv_status,excluded,category,factor,no
+"Status at follow-up",hn4_dv_status,outcome,category,factor,no
+Status,ysnpatientdead,excluded,category,factor,no
+"Smoker status",hn1_a8_ay_tobacco,categorical,category,factor,yes
+"Alcohol consumption",hn1_dv_total_wk,numerical,Float64,numeric,yes
+"Role functioning",hn3_dv_c30_role_func,numerical,Float64,numeric,yes
+"Physical functioning",hn3_dv_c30_phys_func,numerical,Float64,numeric,yes
+"Emotional functioning",hn3_dv_c30_emot_func,numerical,Float64,numeric,yes
+"Cognitive functioning",hn3_dv_c30_cog_func,numerical,Float64,numeric,yes
+"Social functioning",hn3_dv_c30_soc_func,numerical,Float64,numeric,yes
+Fatigue,hn3_dv_c30_fatigue,numerical,Float64,numeric,yes
+"Nausea or vomiting",hn3_dv_c30_nausea,numerical,Float64,numeric,yes
+"C30 - Pain",hn3_dv_c30_pain,numerical,Float64,numeric,yes
+Dyspnoea,hn3_dv_c30_dyspnoea,numerical,Float64,numeric,yes
+Insomnia,hn3_dv_c30_insomnia,numerical,Float64,numeric,yes
+"Loss of appetite",hn3_dv_c30_appetite,numerical,Float64,numeric,yes
+Constipation,hn3_dv_c30_constipation,numerical,Float64,numeric,yes
+Diarrhoea,hn3_dv_c30_diarrhoea,numerical,Float64,numeric,yes
+"GHS/QoL at baseline",hn3_dv_c30_ghs,numerical,Float64,numeric,yes
+"GHS/QoL at follow-up",hn4_dv_c30_ghs,outcome,Float64,numeric,no
+"Physical Functioning",hn4_dv_c30_phys_func,outcome,Float64,numeric,no
+"Role Functioning",hn4_dv_c30_role_func,outcome,Float64,numeric,no
+"Emotional Functioning",hn4_dv_c30_emot_func,outcome,Float64,numeric,no
+"Cognitive Functioning",hn4_dv_c30_cog_func,outcome,Float64,numeric,no
+"Social Functioning",hn4_dv_c30_soc_func,outcome,Float64,numeric,no
+"HN35 - Pain",hn3_dv_hn35_pain,numerical,Float64,numeric,yes
+"Speech problems",hn3_dv_hn35_speech,numerical,Float64,numeric,yes
+"Less sexuality",hn3_dv_hn35_sex,numerical,Float64,numeric,yes
+"Dry mouth",hn3_dv_hn35_drymouth,numerical,Float64,numeric,yes
+"Feeling ill",hn3_dv_hn35_ill,numerical,Float64,numeric,yes
+Swallowing,hn3_dv_hn35_swallow,numerical,Float64,numeric,yes
+"Trouble with social eating",hn3_dv_hn35_soceat,numerical,Float64,numeric,yes
+Teeth,hn3_dv_hn35_teeth,numerical,Float64,numeric,yes
+"Sticky saliva",hn3_dv_hn35_saliva,numerical,Float64,numeric,yes
+"Sense problems",hn3_dv_hn35_senses,numerical,Float64,numeric,yes
+"Trouble with social contact",hn3_dv_hn35_soccon,numerical,Float64,numeric,yes
+"Opening mouth",hn3_dv_hn35_openmouth,numerical,Float64,numeric,yes
+Coughing,hn3_dv_hn35_cough,numerical,Float64,numeric,yes

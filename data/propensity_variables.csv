@@ -1,0 +1,20 @@
+label,variable,type,dtype,rtype,predictor
+"Study id",studyid_hn057,index,Int64,integer,no
+Sex,hn1_na8_cb_sex,categorical,category,factor,yes
+Age,hn1_dv_age_cons,numerical,Float64,integer,yes
+"TNM Stage",hn1_tnm_stage_best,categorical,Int64,factor,yes
+"Comorbidity index",hn1_nb4_cb_comorb_index,categorical,Int64,factor,yes
+"Household income",hn1_dv_a21_ay_hhold_income,categorical,Int64,factor,yes
+"Marital status",hn1_a5_ay_marital_status,categorical,category,factor,yes
+"Education level",hn1_a7a_ay_education_level,categorical,Int64,factor,yes
+"IMD10 wealth index",hn1_imd10quint,categorical,Int64,factor,yes
+Surgery,hn2_surgery,categorical,category,factor,yes
+Chemotherapy,hn2_chemotherapy,categorical,category,factor,yes
+Radiotherapy,hn2_radiotherapy,categorical,category,factor,yes
+"Smoker status",hn1_a8_ay_tobacco,categorical,category,factor,yes
+"Alcohol consumption",hn1_dv_total_wk,numerical,Float64,numeric,yes
+Fatigue,hn3_dv_c30_fatigue,numerical,Float64,numeric,yes
+"C30 - Pain",hn3_dv_c30_pain,numerical,Float64,numeric,yes
+"GHS/QoL at baseline",hn3_dv_c30_ghs,numerical,Float64,numeric,yes
+"GHS/QoL at follow-up",hn4_dv_c30_ghs,outcome,Float64,numeric,no
+"Status at follow-up",hn4_dv_status,outcome,category,factor,no
