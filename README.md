@@ -56,5 +56,20 @@ BD4QoL/
 
 ## Requirements
 
+```{txt}
+scikit-learn==1.3.1
+xgboost==2.0.0
+pandas==2.1.0
+seaborn==0.12.2
+numpy==1.25.2
+matplotlib==3.8.0
+scipy==1.11.2
+torch==2.0.1
+jupyterlab
+plotly
+ipython
+hyperopt==0.2.7
+mapie==0.7.0
+```
 
 
