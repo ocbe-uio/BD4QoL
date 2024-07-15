@@ -1,5 +1,6 @@
 # BD4QoL
-Big Data for Quality of Life (BD4QoL) EU project repository.
+
+Big Data for Quality of Life (BD4QoL) EU project repository at the Oslo Centre for Biostatistics and Epidemiology. This repository contains the code used for developing prediction models in the BD4QoL using the restrospective data from University of Milano (UMIL), University Medical Center Mainz, and University of Bristol.
 
 
 # Respository overview
