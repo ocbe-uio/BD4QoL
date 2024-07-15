@@ -4,6 +4,17 @@ Big Data for Quality of Life (BD4QoL) EU project repository.
 
 # Respository overview
 
+- All model training and statistics are located in the folder `src`.
+- `SLURM` shell scripts can be found in `jobs`.
+- List of variables used for different analyses are found in `data`.
+
+- Naming rules
+  - Scripts used for data cleaning and preparation start with the prefix `A`, e.g. `A1_preprocessing.R`.
+  - Scripts used to train models start with the letter `M`
+  - Post-processing and statistics scripts start with the letter `E`
+  - Functions and classes used in several other scripts are in `functions.py`
+
+
 ```
 BD4QoL/
 ├── data/
@@ -42,3 +53,8 @@ BD4QoL/
 ├── README.md
 └── requirements.txt
 ```
+
+## Requirements
+
+
+
