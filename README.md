@@ -56,6 +56,8 @@ BD4QoL/
 
 ## Requirements
 
+The models were developed with python 3.10 and the following requirements:
+
 ```{txt}
 scikit-learn==1.3.1
 xgboost==2.0.0
